@@ -1,2 +1,7 @@
-info:
-  name: world
+spring:
+  profiles:
+    active: pro
+redis:
+  host: 
+    url: 192.168.0.32
+    port: 6379
